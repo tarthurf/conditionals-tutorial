@@ -20,12 +20,16 @@ console.log("hello world");
 
 // Lets start with a simple example.
 // Uncomment the code below:
+// ======================================================
 
 // if (1 == 1) {
 //     console.log("They are equal!");
 // } else {
 //     console.log("They are not equal.");
 // };
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // Let's break it down:
 // We declared our if statement and followed it with a set of brackets (parentheses)
@@ -41,6 +45,7 @@ console.log("hello world");
 // "==" is a looser comparison than "===" which is more strict.
 // Lets see the difference between the two.
 // Uncomment the code below:
+// ======================================================
 
 // if (1 == "1") {
 //     console.log("They are equal!");
@@ -48,9 +53,12 @@ console.log("hello world");
 //     console.log("They are not equal.");
 // };
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // Now lets do this same statement but with "===" as our comparison operator.
 // Uncomment the code below:
+// ======================================================
 
 // if (1 === "1") {
 //     console.log("They are equal!");
@@ -58,6 +66,8 @@ console.log("hello world");
 //     console.log("They are not equal.");
 // };
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // Using "==" will convert any strings to numbers if possible for comparison.
 // Using "===" will also compare the object type as well as checking if the objects are equal.
@@ -65,32 +75,39 @@ console.log("hello world");
 
 // We can use the "typeof" statement to check what the type of an object is.
 // Uncomment the code below:
+// ======================================================
 
 // console.log(typeof 1);
 // console.log(typeof "1");
 // console.log(typeof [1, 2, 3]);
 // console.log(typeof true);
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // typeof returns the type of object as a STRING. We can use type of in comparisons like so.
 // Uncomment the code below:
+// ======================================================
 
 // if (typeof "Hello World" === "string") {
 //     console.log("It's a string!");
 // } else {
 //     console.log("It's not a string");
 // };
-
+    
 // if (typeof 1 === "number") {
 //     console.log("It's a number!");
 // } else {
 //     console.log("It's not a number");
 // };
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // We can also use a single statement comparison in our conditionals to check if items return the true statement.
 // We use this method to check if objects exist or if they are true.
 // Uncomment the code below:
+// ======================================================
 
 // var sentence = "Check to see if I'm true!";
 
@@ -100,12 +117,15 @@ console.log("hello world");
 //     console.log("It's false.");
 // };
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // Lets talk about "<", ">", "<=", and ">=".
 // These are the same as math operators that check for greater than, less than, greater than or equal to, and
 // less than or equal to.
 // Lets use some else if statements in our example
 // Uncomment the code below:
+// ======================================================
 
 // if (2 < 2) {
 //     console.log("Less than");
@@ -115,9 +135,12 @@ console.log("hello world");
 //     console.log("I don't know what I am comparing...");
 // };
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // The else if statement gives us an extra comparison. Lets see how that works by looping through an array.
 // Uncomment the code below:
+// ======================================================
 
 // var colorArr = ["red", "orange", "yellow", "green", "blue", "purple"];
 
@@ -133,10 +156,14 @@ console.log("hello world");
 //     };
 // };
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
+
 // We can chain as many else if statements together as we want. Although, we generally don't want to
 // chain many else if statements together.
 // Instead, we can use a switch statement. Lets take a look.
 // Uncomment the code below:
+// ======================================================
 
 // var color = "blue";
 
@@ -168,6 +195,9 @@ console.log("hello world");
 //     default:
 //     console.log("I don't know what color this is...", color);
 // };
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // Ok, This may seem like a lot of stuff going on, so lets break it down.
 // First we declared a variable named color and gave it the value of "blue".
@@ -214,6 +244,9 @@ console.log("hello world");
 // };
 // multi(mixedArr);
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
+
 // We ran our switch in a loop to check the object type for each element in an array.
 // If it is a number, we increased it's value by 1. If it is a string, we split that string at each word and make it an array with those words.
 // If it is a boolean, we change it to the opposite boolean. And, finally, our default just lets us know when an object isn't valid and
@@ -226,6 +259,7 @@ console.log("hello world");
 // ` <expression to be compared> ? <what to do if the object is true> : <what to do if the object is false> `
 // Lets look at an example.
 // Uncomment the code below:
+// ======================================================
 
 // var age1 = 27;
 // var age2 = 18;
@@ -236,12 +270,16 @@ console.log("hello world");
 // var underAge = age2 >= drinkingAge ? "Order a beer" : "Order a soda";
 // console.log(underAge);
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
+
 // A quick note, we need to declare the ternary operator as a variable if we want to see the value it returns through a console.log.
 // We made a comparison (the person's age compared to the drinking age) and if they were over the drinking age they
 // order a beer.
 // If they aren't, they order juice instead.
 // We can also chain ternary operators together like an if, else if, else statement like so.
 // Uncomment the code below:
+// ======================================================
 
 // function chooseRed(color) {
 //     return color === "red" ? console.log("Hooray it's red!")
@@ -249,6 +287,9 @@ console.log("hello world");
 //         : color === "green" ? console.log("Green is ok, I guess...")
 //         : console.log("Do you even know what a color is???");
 // };
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Comment the code above.
 
 // chooseRed("red");
 // chooseRed("blue");
